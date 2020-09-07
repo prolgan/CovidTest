@@ -54,11 +54,7 @@ class TableApp extends React.Component {
       records: []
     };
   }
-	//state = {
-	//	records: [
-	//		{countriesAndTerritories: 'Latvia',deaths: 100 }
-	//	]
-	//}
+	
 
 	componentDidMount() {
     var proxyUrl = 'https://cors-anywhere.herokuapp.com/',

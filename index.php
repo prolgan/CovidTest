@@ -19,7 +19,7 @@
 
 <body>
 
-<div class=.allcontent">
+
 		<!-- Tab links -->
 	<div class="tab">
 	  <button class="tablinks" onclick="openTab(event, 'Table')" id="defaultOpen" >Таблица</button>
@@ -41,7 +41,7 @@
 	 	<canvas id="myChart" width="400" height="200"></canvas>
 
 	</div>
-</div>
+
 <script type="text/babel" src="scripts/react.js"></script>
 
 <!-- Вкладки -->

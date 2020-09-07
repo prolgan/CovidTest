@@ -1,3 +1,5 @@
+//Код взят с сайта https://www.w3schools.com/howto/howto_js_tabs.asp
+
 document.getElementById("defaultOpen").click();
 function openTab(evt, tabName) {
     // Declare all variables
