@@ -10,38 +10,38 @@
     
     <!-- Don't use this in production: -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>	
+
+    
+   
 </head>
 
 <body>
-<div id="root"></div>
 
-	<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Table')" id="defaultOpen" >Таблица</button>
-  <button class="tablinks" onclick="openTab(event, 'Graphic')">График</button>
+<div class=.allcontent">
+		<!-- Tab links -->
+	<div class="tab">
+	  <button class="tablinks" onclick="openTab(event, 'Table')" id="defaultOpen" >Таблица</button>
+	  <button class="tablinks" onclick="openTab(event, 'Graphic')">График</button>
+	</div>
+
+	<div></div>
+	<!-- Tab content -->
+	<div id="Table" class="tabcontent">
+
+	  	<table id="root">
+	  		
+	  	</table>
+	  
+	</div>
+
+	<div id="Graphic" class="tabcontent">
+	 
+	 	<canvas id="myChart" width="400" height="200"></canvas>
+
+	</div>
 </div>
-
-
-<!-- Tab content -->
-<div id="Table" class="tabcontent">
-  <table style="width:100%">
-  	<tr>
-  		<td>Страна</td>
-  		<td>Количество случаев</td>
-  		<td>Количество смертей</td>
-  		<td>Количество случаев на 1000 жителей</td>
-  		<td>Количество смертей на 1000 жителей</td>
-  	</tr>
-  	<tr></tr>
-  	<tr></tr>
-  	<tr></tr>
-  </table>
-</div>
-
-<div id="Graphic" class="tabcontent">
- 
-</div>
-
 <script type="text/babel" src="scripts/react.js"></script>
 
 <!-- Вкладки -->
